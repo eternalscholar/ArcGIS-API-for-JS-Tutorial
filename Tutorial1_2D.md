@@ -336,7 +336,7 @@ var map = new Map({
 
 **Step 9.** *Style the Parks and Open Spaces layer by numeric values*
 
-**Paste the code snippet below before the line of code  **
+Paste the code snippet below before the line of code
 
  ```javascript
 var map = new Map({
