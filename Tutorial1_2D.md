@@ -1,6 +1,6 @@
 # ArcGIS API for Javascript: An Introductory Tutorial
 
----
+
 
 ## Tutorial I:  Visualizing in 2D
 
