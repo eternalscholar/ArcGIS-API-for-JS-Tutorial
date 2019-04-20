@@ -1,4 +1,4 @@
-<center><b><font size="4">Tutorial II:  Visualizing in 3D
+## Tutorial II:  Visualizing in 3D
 
 
 
@@ -78,7 +78,7 @@
 
 
 
-**Step 3: Paste the code snippet below before the following single line of code **
+**Step 3: Paste the code snippet below before the following single line of code**
 
  ```javascript
 var map = new Map({
