@@ -1,8 +1,8 @@
-<center><b><font size="5">ArcGIS API for Javascript: An Introductory Tutorial</b></center>
+# ArcGIS API for Javascript: An Introductory Tutorial
 
 ---
 
-<center><b><font size="4">Tutorial I:  Visualizing in 2D
+## Tutorial I:  Visualizing in 2D
 
 **Objective:** To add a point layer, a line layer and a polygon layer and overlay it on a basemap using ArcGIS API for Javascript. In exercise 1 of this tutorial, a point layer will be overlaid on a default basemap. The end product of exercise 1 will be an HTML file which when opened will show a point layer overlaid on a basemap. In exercise 2, we will create a new HTML file, add a point layer, a line layer and a polygon layer and change their styles. The end product will be an HTML file which when opened will show these three layers overlaid on a basemap.
 
@@ -22,7 +22,7 @@ Any Code editor
 
 
 
-<center><b><font size="4">Exercise I: Add a point layer over a default background Map</b></center>
+### Exercise I: Add a point layer over a default background Map
 
 | **Synopsis:**      |               |
 | ------------------ | ------------- |
@@ -140,7 +140,7 @@ var map = new Map({
 
  
 
-<center><b><font size="4">Exercise II: Styling the Feature Layers</b></center>
+### Exercise II: Styling the Feature Layers 
 
 | **Synopsis**                                                 |               |
 | ------------------------------------------------------------ | ------------- |
