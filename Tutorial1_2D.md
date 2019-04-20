@@ -10,8 +10,8 @@
 
 All the data required for this tutorial is available online and no downloads are required. We will be using three layers in our 2D tutorial which are available from ArcGIS online.
 
-Point Layer:- Trailheads near Los Angeles, 
-Line Layer:- Trails with the trailheads, 
+Point Layer:- Trailheads near Los Angeles,  
+Line Layer:- Trails with the trailheads,  
 Polygon layer:- Parks and Openspaces near the trails
 
 **Tools Required:**
