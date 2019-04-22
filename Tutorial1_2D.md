@@ -16,7 +16,7 @@ Polygon layer:- Parks and Openspaces near the trails
 
 **Tools Required:**
 
-Any Code editor 
+None. You may use [codepen.io](https://codepen.io/) as an online HTML code editor.
 
 ---
 
@@ -31,9 +31,9 @@ Any Code editor
 
 **Step 1. Create a blank HTML file**
 
-Open notepad/code editor, save the file as Trailheads.html extension: 
+Open [codepen.io](https://codepen.io/)  
 
-**Step 2. Add the following Basic Template to the newly created HTML file.**
+**Step 2. Add the following Basic Template to the HTML section in codepen.**
 
 ``` html
 <html>
@@ -84,7 +84,7 @@ Open notepad/code editor, save the file as Trailheads.html extension:
 
 
 
-**Step 3. Save the file and open the file in web browser. You should see a Map like the one below.**![img](https://lh3.googleusercontent.com/dOZGmjOOPQ7zUDaJ5EP-aYML8sXdXbf1KEETivu3q2Ree5q4Zkc3bQqNmjXCTngNsqutkmQkuXjBKE-RuYKLguAiafXi3bYCEMUY1vSGRS3eJFI0y2NZuTzWvu8HfEw8D_BkBRav)
+**Step 3. You should see a Map like the one below.**![img](https://lh3.googleusercontent.com/dOZGmjOOPQ7zUDaJ5EP-aYML8sXdXbf1KEETivu3q2Ree5q4Zkc3bQqNmjXCTngNsqutkmQkuXjBKE-RuYKLguAiafXi3bYCEMUY1vSGRS3eJFI0y2NZuTzWvu8HfEw8D_BkBRav)
 
  
 
@@ -128,7 +128,7 @@ var map = new Map({
 
 
 
-**Step 6: Save the file and open the file in web browser. You should get something like this.** ![img](https://lh6.googleusercontent.com/k-xfG94eoxSI9KVko_ZfmK3J7d7TEe2hyWc-7irmQKqOJLIrCfVWMP2rz6bXZu8Em0KLCHT6iUqerQYNcW82VMRlXVfNhoJXRGCZn9xQmQWh3qIXam0cr7nqpW2G9uwVNvI8cBMB)
+**Step 6: You should get something like this.** ![img](https://lh6.googleusercontent.com/k-xfG94eoxSI9KVko_ZfmK3J7d7TEe2hyWc-7irmQKqOJLIrCfVWMP2rz6bXZu8Em0KLCHT6iUqerQYNcW82VMRlXVfNhoJXRGCZn9xQmQWh3qIXam0cr7nqpW2G9uwVNvI8cBMB)
 
  
 
@@ -151,9 +151,9 @@ var map = new Map({
 
 **Step 1. Create a blank HTML file**
 
-Open notepad / code editor, save file as Trails.html 
+Open [codepen.io](https://codepen.io/) 
 
-**Step 2. Add the following Basic Template to the newly created HTML file.**
+**Step 2. Add the following Basic Template to the HTML section in codepen.io.**
 
 ```html
 <html>
@@ -202,7 +202,7 @@ Open notepad / code editor, save file as Trails.html
 
 
 
-**Step 3. Open the HTML file in web browser. You should see a Map now.**
+**Step 3. You should see a Map now.**
 
  ![img](https://lh5.googleusercontent.com/nHSJwW-YNqi5At0F5hSdSImxkAls4NyOL50cJ5mo8xXEj3Xqxx0oee5Xb0xc0KNUpHt7lv4kD_XX_Emww1eshO4wIbh7zJa4JVcp6BppapM-x-1o6prYXdX75GcipdGhqJubaSta)
 
@@ -258,7 +258,7 @@ var map = new Map({
 
 
 
-**Step 6. Open the HTML file in web browser to see the output.**
+**Step 6. You should be seeing something like this.**
 
  ![img](https://lh5.googleusercontent.com/yOgwcOF5lAEDRh0lscOYZh4iWyq3boQ6AXy5GZaoj6gZaKhT9a8zwlQn-X4mECZm8euKkVZKAZvETshJdJtrAfdiuMYeRCKKKyCHRZ-p7WMfxZBxzWj0a566k8a_l_BppCFexEFr)
 
@@ -268,7 +268,7 @@ var map = new Map({
 
 **Step 7.** ***Style the Trails layer by unique values***
 
-**Paste the code snippet below before the line of code**  
+**Paste the code snippet below before the single line of code**  
 
  ```javascript
 var map = new Map({
@@ -326,7 +326,7 @@ var map = new Map({
 
 
 
-**Step 8. Open the HTML file in web browser to see the output.**
+**Step 8. Yo should be seeing something like this.**
 
   ![img](https://lh3.googleusercontent.com/3H4HDz8BcRfiPR-ZENxjLDoKjNSyVR7jbq_l2toSWD16FsCoLlQ8yXWZEm_3UrU_XI6g0S37t0yKmKFqC0YyKOhVQAzAZApPWQZGutj44u-9crK1THEGBCXp4eV7UV9A95pdpmnR)
 
@@ -336,7 +336,7 @@ var map = new Map({
 
 **Step 9.** *Style the Parks and Open Spaces layer by numeric values*
 
-Paste the code snippet below before the line of code
+Paste the code snippet below before the single line of code
 
  ```javascript
 var map = new Map({
@@ -419,7 +419,7 @@ var map = new Map({
 
  
 
-**Step 11. Open the HTML file in web browser to see the final output.**
+**Step 11. Your final output should be like this.**
 
  ![img](https://lh6.googleusercontent.com/lUVeEUiWH0bZyI4b9FeKMWeH-QYIWm-0K2Bi1P8VkzPceh3DRKaYzEZ2OJzWV8p7fF7_dv0TcSoTc8MEzNipGDtVFTDvzaVCV4Fu9EqYrqOH_lAcU63wZzKbqSZeqHuUFrYHdvxS)
 
