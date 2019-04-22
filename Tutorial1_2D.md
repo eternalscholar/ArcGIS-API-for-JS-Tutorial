@@ -268,7 +268,7 @@ var map = new Map({
 
 **Step 7.** ***Style the Trails layer by unique values***
 
-**Paste the code snippet below before the single line of code**  
+**Paste the code snippet below before the following line of code**  
 
  ```javascript
 var map = new Map({
@@ -336,7 +336,7 @@ var map = new Map({
 
 **Step 9.** *Style the Parks and Open Spaces layer by numeric values*
 
-Paste the code snippet below before the single line of code
+Paste the code snippet below before the following line of code
 
  ```javascript
 var map = new Map({
