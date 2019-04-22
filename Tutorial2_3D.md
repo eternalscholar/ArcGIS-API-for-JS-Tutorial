@@ -143,10 +143,16 @@ var renderer = {
        });
 ```
 
-
-
-
-
+**Step 4: Replace the following two lines of code by the three lines of code down below**
+```javascript
+var map = new Map({
+          basemap: "gray",
+```
+```javascript
+var map = new Map({
+          basemap: "gray",
+          layers: [povLayer]
+```
 **Step 4: You should see something like this.**  ![img](https://lh3.googleusercontent.com/ijti0zxFyVxn9APrNtMCyTdZZQKoPu-IVV5MyVgiVbQAfMoSFMV-_QEmDsJ6_M8WlUmMQXQAvNJ0cYLJzwDJVPYCFOa1Gj4rA8Y1fSdii-a3-BGsGFamsjtCzLN5F7_4PFAIbGEI)
 
  
