@@ -312,7 +312,7 @@ var trails = new FeatureLayer({
 
 
 
- **Step 8. Add the following single line of code immediately after the 2 lines of code shown below (lines 75-76, more or less).** 
+ **Step 8. Add the following single line of code immediately after the 2 lines of code shown below (lines 74-75, more or less).** 
 
 ```javascript
 map.add(trails,0);
@@ -335,7 +335,7 @@ map.add(trails,0);
 
 **Step 9.** *Style the Parks and Open Spaces layer by numeric values*
 
-Paste the code snippet down below before the following line of code (line 41, more or less)
+Paste the code snippet down below before the following line of code (line 73, more or less)
 
  ```javascript
 var map = new Map({
@@ -404,14 +404,13 @@ var map = new Map({
 
 
 
-**Step 10. Add the following single line of code immediately after the 3 lines of code shown below.** 
+**Step 10. Add the following single line of code immediately after the 2 lines of code (lines 132-133) shown below.** 
 
 ```javascript
 map.add(openspaces,0);
 ```
 
 ```javascript
-var map = new Map({
     basemap: "topo-vector"
 });
 ```
