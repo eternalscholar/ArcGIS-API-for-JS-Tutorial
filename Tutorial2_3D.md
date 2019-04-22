@@ -6,7 +6,7 @@
 
   
 
-**Step 1: Create a new HTML file and name it 3D_Extrusion.html. Paste the following template code into it.**
+**Step 1: Paste the following template code into [codepen.io](https://codepen.io/).**
 
  ```html
 <!DOCTYPE html>
@@ -72,7 +72,7 @@
 
 
 
-**Step 2: Save the file and open it. It should look like this.**
+**Step 2: You should get something like this.**
 
   ![img](https://lh4.googleusercontent.com/w9Ox1M4-T714T5KE3tI-b4Wb9HTrh6sPP8agL_dWbMe6R1MbVwM_7_3hjAKjZrOBOM1nME3A5dTZnmDJjgZ9V1LAZkxtamAC3qKJl4RmCh5zI1PZbeYKueBGAx-SW8nKSiBieSSg)
 
@@ -149,7 +149,7 @@ var renderer = {
 
 
 
-**Step 4: Save the file and open it. You should see something like this.**  ![img](https://lh3.googleusercontent.com/ijti0zxFyVxn9APrNtMCyTdZZQKoPu-IVV5MyVgiVbQAfMoSFMV-_QEmDsJ6_M8WlUmMQXQAvNJ0cYLJzwDJVPYCFOa1Gj4rA8Y1fSdii-a3-BGsGFamsjtCzLN5F7_4PFAIbGEI)
+**Step 4: You should see something like this.**  ![img](https://lh3.googleusercontent.com/ijti0zxFyVxn9APrNtMCyTdZZQKoPu-IVV5MyVgiVbQAfMoSFMV-_QEmDsJ6_M8WlUmMQXQAvNJ0cYLJzwDJVPYCFOa1Gj4rA8Y1fSdii-a3-BGsGFamsjtCzLN5F7_4PFAIbGEI)
 
  
 
@@ -191,7 +191,7 @@ outFields: ["*"],
 
 ​        
 
-**Step 6: Save the file and open it. You should see something like this.** ![img](https://lh6.googleusercontent.com/RYuJD6VXktwfBm7Ln4lDD_NeHyF6_22LoWDQG5CgmCEZNPjeDu7wsqel_7r_l0XoR8yLZK6tEzC8Y1EBIH0w_nQCxmOhU4-RIlTiOx111Ntq33YaJYf7U0qbU5UN69i8Gu3du_WS)
+**Step 6: You should see something like this.** ![img](https://lh6.googleusercontent.com/RYuJD6VXktwfBm7Ln4lDD_NeHyF6_22LoWDQG5CgmCEZNPjeDu7wsqel_7r_l0XoR8yLZK6tEzC8Y1EBIH0w_nQCxmOhU4-RIlTiOx111Ntq33YaJYf7U0qbU5UN69i8Gu3du_WS)
 
  
 
@@ -224,7 +224,7 @@ outFields: ["*"],
 
  
 
- **Step 8: Save the file and open it. Your final output should look like this.** ![img](https://lh5.googleusercontent.com/v7Ylor1gm-P8E_TOcWz8_p2UwkcPAd9xdLtm21Pmta2D6ygz3Z5daPJ2iJ-Kx1IciJit0I99ywcLgx1VbjJKBu6AW65DqyWBBdxAKjRchDD7_6mYulsOxm88pzmYT4YP55q9_s4C)
+ **Step 8: Your final output should look like this.** ![img](https://lh5.googleusercontent.com/v7Ylor1gm-P8E_TOcWz8_p2UwkcPAd9xdLtm21Pmta2D6ygz3Z5daPJ2iJ-Kx1IciJit0I99ywcLgx1VbjJKBu6AW65DqyWBBdxAKjRchDD7_6mYulsOxm88pzmYT4YP55q9_s4C)
 
 
 
