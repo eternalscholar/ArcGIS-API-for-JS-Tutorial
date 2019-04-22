@@ -113,7 +113,7 @@ require([
 
 
 
-**Step 5. Add the following single line of code immediately after the 3 lines of code shown below.**   
+**Step 5. Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
 
 ```javascript
 map.add(featureLayer);
