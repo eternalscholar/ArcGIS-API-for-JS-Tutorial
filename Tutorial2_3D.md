@@ -78,7 +78,7 @@
 
 
 
-**Step 3: Paste the code snippet below before the following single line of code**
+**Step 3: Paste the code snippet down below before the following single line of code**
 
  ```javascript
 var map = new Map({
@@ -134,9 +134,7 @@ var renderer = {
            }
          ]
        };
- 
- 
-       var povLayer = new FeatureLayer({
+         var povLayer = new FeatureLayer({
          url:
            "https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/counties_politics_poverty/FeatureServer/0",
          renderer: renderer,
