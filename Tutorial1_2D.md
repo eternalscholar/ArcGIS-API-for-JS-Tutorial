@@ -208,7 +208,7 @@ Open [codepen.io](https://codepen.io/)
 
 
 
-**Step 4. Replace the following 4 lines of code with the lines of code below it.**    
+**Step 4. Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**    
 
 ```javascript
 require([
@@ -244,7 +244,7 @@ var trailheads = new FeatureLayer({
 
 
 
-**Step 5. Add the following single line of code immediately after the 3 lines of code shown below.**   
+**Step 5. Add the following single line of code immediately after the 3 lines of code (lines 41-43, more or less) shown below.**   
 
   ```javascript
 map.add(trailheads);
@@ -268,7 +268,7 @@ var map = new Map({
 
 **Step 7.** ***Style the Trails layer by unique values***
 
-**Paste the code snippet down below before the following line of code**  
+**Paste the code snippet down below before the following line of code (line 41, more or less)**  
 
  ```javascript
 var map = new Map({
@@ -312,14 +312,13 @@ var trails = new FeatureLayer({
 
 
 
- **Step 8. Add the following single line of code immediately after the 3 lines of code shown below.** 
+ **Step 8. Add the following single line of code immediately after the 2 lines of code shown below (lines 75-76, more or less).** 
 
 ```javascript
 map.add(trails,0);
 ```
 
 ```javascript
-var map = new Map({
     basemap: "topo-vector"
 });
 ```
@@ -336,7 +335,7 @@ var map = new Map({
 
 **Step 9.** *Style the Parks and Open Spaces layer by numeric values*
 
-Paste the code snippet down below before the following line of code
+Paste the code snippet down below before the following line of code (line 41, more or less)
 
  ```javascript
 var map = new Map({
