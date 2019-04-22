@@ -88,7 +88,7 @@ Open [codepen.io](https://codepen.io/)
 
  
 
-**Step 4. Replace the following 4 lines of code with the lines of code below it.**
+**Step 4. Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**
 
 ```javascript
 require([
