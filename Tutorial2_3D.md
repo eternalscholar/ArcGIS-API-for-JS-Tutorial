@@ -6,7 +6,7 @@
 
   
 
-**Step 1: Paste the following template code into [codepen.io](https://codepen.io/).**
+**Step 1: Paste the following template code into HTML section of [codepen.io](https://codepen.io/).**
 
  ```html
 <!DOCTYPE html>
