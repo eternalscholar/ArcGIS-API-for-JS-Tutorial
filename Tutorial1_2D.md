@@ -404,7 +404,7 @@ var map = new Map({
 
 
 
-**Step 10. Add the following single line of code immediately after the 2 lines of code (lines 132-133) shown below.** 
+**Step 10. Add the following single line of code immediately after the 2 lines of code (lines 132-133, more or less) shown below.** 
 
 ```javascript
 map.add(openspaces,0);
