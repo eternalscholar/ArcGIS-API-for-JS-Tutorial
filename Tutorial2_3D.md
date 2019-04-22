@@ -78,7 +78,7 @@
 
 
 
-**Step 3: Paste the code snippet down below before the following single line of code**
+**Step 3: Paste the code snippet down below before the following single line of code (line 33)**
 
  ```javascript
 var map = new Map({
@@ -143,7 +143,7 @@ var renderer = {
        });
 ```
 
-**Step 4: Replace the following two lines of code by the three lines of code down below**
+**Step 4: Replace the following two lines of code (lines 89-90, more or less) by the three lines of code down below**
 ```javascript
 var map = new Map({
           basemap: "gray",
@@ -159,7 +159,7 @@ var map = new Map({
 
  **Step 6:** *Include Pop-up*
 
-**Replace the following single line of code by the code snippet below**
+**Replace the following single line of code (line 87) by the code snippet below**
 
 ```javascript
 outFields: ["*"]
@@ -203,7 +203,7 @@ outFields: ["*"],
 
 **Step 8: Include Legend**
 
-**Replace the following three lines of code (near the bottom) with the code snippet below.** 
+**Replace the following three lines of code (lines 129 - 131, more or less) with the code snippet below.** 
 
 ```javascript
        });
