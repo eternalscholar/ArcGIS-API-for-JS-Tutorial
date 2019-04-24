@@ -110,7 +110,7 @@ require([
   });
 
 ```
-
+In this step, we added a reference to the point layer (trailheads).
 
 
 **Step 5. Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
@@ -125,7 +125,7 @@ var map = new Map({
 });
 
 ```
-
+In this step, we added the point layer (trailheads) to the map.
 
 
 **Step 6: You should get something like this.** ![img](https://lh6.googleusercontent.com/k-xfG94eoxSI9KVko_ZfmK3J7d7TEe2hyWc-7irmQKqOJLIrCfVWMP2rz6bXZu8Em0KLCHT6iUqerQYNcW82VMRlXVfNhoJXRGCZn9xQmQWh3qIXam0cr7nqpW2G9uwVNvI8cBMB)
@@ -241,7 +241,7 @@ var trailheads = new FeatureLayer({
 });
 
 ```
-
+In this step, we created a reference to the point layer (trailheads) and created a renderer for the layer. Renderers are used to style your layers.
 
 
 **Step 5. Add the following single line of code immediately after the 3 lines of code (lines 41-43, more or less) shown below.**   
@@ -255,7 +255,7 @@ var map = new Map({
     basemap: "topo-vector"
 });
 ```
-
+In this step, we added the point layer (trailheads) to the map.
 
 
 **Step 6. You should be seeing something like this.**
@@ -266,9 +266,7 @@ var map = new Map({
 
   
 
-**Step 7.** ***Style the Trails layer by unique values***
-
-**Paste the code snippet down below before the following line of code (line 41, more or less)**  
+**Step 7.Paste the code snippet down below before the following line of code (line 41, more or less)**  
 
  ```javascript
 var map = new Map({
@@ -309,7 +307,7 @@ var trails = new FeatureLayer({
   renderer: trailsRenderer
 });
 ```
-
+In this step, we created a reference to the line layer (trails) and created a renderer for the same. 
 
 
  **Step 8. Add the following single line of code immediately after the 2 lines of code shown below (lines 74-75, more or less).** 
@@ -333,9 +331,7 @@ map.add(trails,0);
 
  
 
-**Step 9. Style the Parks and Open Spaces layer by numeric values**
-
-Paste the code snippet down below before the following line of code (line 73, more or less)
+**Step 9. Paste the code snippet down below before the following line of code (line 73, more or less)**
 
  ```javascript
 var map = new Map({
@@ -401,7 +397,7 @@ var map = new Map({
     renderer: openSpacesRenderer
   });
 ```
-
+In this step, we created a reference to the polygon layer (parks and open spaces) and created a renderer for the same.
 
 
 **Step 10. Add the following single line of code immediately after the 2 lines of code (lines 132-133, more or less) shown below.** 
@@ -414,7 +410,7 @@ map.add(openspaces,0);
     basemap: "topo-vector"
 });
 ```
-
+In this step, we added the polygon layer (parks and open spaces) to the map.
  
 
 **Step 11. Your final output should be like this.**
