@@ -33,7 +33,7 @@ None. You may use [codepen.io](https://codepen.io/) as an online HTML code edito
 
 Open [codepen.io](https://codepen.io/)  
 
-**Step 1.2 Add the following Basic Template to the HTML section in codepen.**
+**Step 1.2 Add the following boiler plate code to the HTML section in codepen.**
 
 ``` html
 <html>
@@ -88,7 +88,8 @@ Open [codepen.io](https://codepen.io/)
 
  
 
-**Step 1.4** **Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**
+**Step 1.4 In this step, we add a reference to the point layer (trailheads).**
+**Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**
 
 ```javascript
 require([
@@ -110,12 +111,13 @@ require([
   });
 
 ```
-In this step, we added a reference to the point layer (trailheads).  
+
   
   
 
 
-**Step 1.5 Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
+**Step 1.5 In this step, we add the point layer (trailheads) to the map.
+Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
 
 ```javascript
 map.add(featureLayer);
@@ -127,7 +129,6 @@ var map = new Map({
 });
 
 ```
-In this step, we added the point layer (trailheads) to the map.
 
 
 **Step 1.6: You should get something like this.** ![img](https://lh6.googleusercontent.com/k-xfG94eoxSI9KVko_ZfmK3J7d7TEe2hyWc-7irmQKqOJLIrCfVWMP2rz6bXZu8Em0KLCHT6iUqerQYNcW82VMRlXVfNhoJXRGCZn9xQmQWh3qIXam0cr7nqpW2G9uwVNvI8cBMB)
@@ -155,7 +156,7 @@ In this step, we added the point layer (trailheads) to the map.
 
 Open [codepen.io](https://codepen.io/) 
 
-**Step 2.2 Add the following Basic Template to the HTML section in codepen.io.**
+**Step 2.2 Add the following boiler plate code to the HTML section in codepen.io.**
 
 ```html
 <html>
@@ -210,7 +211,7 @@ Open [codepen.io](https://codepen.io/)
 
 
 
-**Step 2.4 Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**    
+**Step 2.4 In this step, we create a reference to the point layer (trailheads) and create a renderer for the layer. Renderers are used to style your layers. Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**    
 
 ```javascript
 require([
@@ -243,10 +244,10 @@ var trailheads = new FeatureLayer({
 });
 
 ```
-In this step, we created a reference to the point layer (trailheads) and created a renderer for the layer. Renderers are used to style your layers.
 
 
-**Step 2.5 Add the following single line of code immediately after the 3 lines of code (lines 41-43, more or less) shown below.**   
+
+**Step 2.5 In this step, we added the point layer (trailheads) to the map. Add the following single line of code immediately after the 3 lines of code (lines 41-43, more or less) shown below.**   
 
   ```javascript
 map.add(trailheads);
@@ -257,7 +258,7 @@ var map = new Map({
     basemap: "topo-vector"
 });
 ```
-In this step, we added the point layer (trailheads) to the map.
+
 
 
 **Step 2.6 You should be seeing something like this.**
@@ -268,7 +269,7 @@ In this step, we added the point layer (trailheads) to the map.
 
   
 
-**Step 2.7 Paste the code snippet down below before the following line of code (line 41, more or less)**  
+**Step 2.7 In this step, we create a reference to the line layer (trails) and create a renderer for the same. Paste the code snippet down below before the following line of code (line 41, more or less)**  
 
  ```javascript
 var map = new Map({
@@ -309,7 +310,7 @@ var trails = new FeatureLayer({
   renderer: trailsRenderer
 });
 ```
-In this step, we created a reference to the line layer (trails) and created a renderer for the same. 
+
 
 
  **Step 2.8 Add the following single line of code immediately after the 2 lines of code shown below (lines 74-75, more or less).** 
@@ -333,7 +334,7 @@ map.add(trails,0);
 
  
 
-**Step 2.10 Paste the code snippet down below before the following line of code (line 73, more or less)**
+**Step 2.10 In this step, we create a reference to the polygon layer (parks and open spaces) and create a renderer for the same. Paste the code snippet down below before the following line of code (line 73, more or less)**
 
  ```javascript
 var map = new Map({
@@ -399,10 +400,10 @@ var map = new Map({
     renderer: openSpacesRenderer
   });
 ```
-In this step, we created a reference to the polygon layer (parks and open spaces) and created a renderer for the same.
 
 
-**Step 2.11 Add the following single line of code immediately after the 2 lines of code (lines 132-133, more or less) shown below.** 
+
+**Step 2.11 In this step, we add the polygon layer (parks and open spaces) to the map. Add the following single line of code immediately after the 2 lines of code (lines 132-133, more or less) shown below.** 
 
 ```javascript
 map.add(openspaces,0);
@@ -412,7 +413,7 @@ map.add(openspaces,0);
     basemap: "topo-vector"
 });
 ```
-In this step, we added the polygon layer (parks and open spaces) to the map.
+
  
 
 **Step 2.12 Your final output should be like this.**
