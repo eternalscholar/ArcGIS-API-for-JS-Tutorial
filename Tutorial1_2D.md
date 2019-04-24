@@ -22,18 +22,18 @@ None. You may use [codepen.io](https://codepen.io/) as an online HTML code edito
 
 
 
-### Exercise I: Add a point layer over a default background Map
+### Exercise 1: Add a point layer over a default background Map
 
 | **Synopsis:**      |               |
 | ------------------ | ------------- |
 | Add background Map | Steps 1 and 2 |
 | Add Point Layer    | Steps 4 and 5 |
 
-**Step 1. Create a blank HTML file**
+**Step 1.1. Create a blank HTML file**
 
 Open [codepen.io](https://codepen.io/)  
 
-**Step 2. Add the following Basic Template to the HTML section in codepen.**
+**Step 1.2 Add the following Basic Template to the HTML section in codepen.**
 
 ``` html
 <html>
@@ -84,11 +84,11 @@ Open [codepen.io](https://codepen.io/)
 
 
 
-**Step 3. You should see a Map like the one below.**![img](https://lh3.googleusercontent.com/dOZGmjOOPQ7zUDaJ5EP-aYML8sXdXbf1KEETivu3q2Ree5q4Zkc3bQqNmjXCTngNsqutkmQkuXjBKE-RuYKLguAiafXi3bYCEMUY1vSGRS3eJFI0y2NZuTzWvu8HfEw8D_BkBRav)
+**Step 1.3 You should see a Map like the one below.**![img](https://lh3.googleusercontent.com/dOZGmjOOPQ7zUDaJ5EP-aYML8sXdXbf1KEETivu3q2Ree5q4Zkc3bQqNmjXCTngNsqutkmQkuXjBKE-RuYKLguAiafXi3bYCEMUY1vSGRS3eJFI0y2NZuTzWvu8HfEw8D_BkBRav)
 
  
 
-**Step 4.** **Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**
+**Step 1.4** **Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**
 
 ```javascript
 require([
@@ -115,7 +115,7 @@ In this step, we added a reference to the point layer (trailheads).
   
 
 
-**Step 5. Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
+**Step 1.5 Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
 
 ```javascript
 map.add(featureLayer);
@@ -130,7 +130,7 @@ var map = new Map({
 In this step, we added the point layer (trailheads) to the map.
 
 
-**Step 6: You should get something like this.** ![img](https://lh6.googleusercontent.com/k-xfG94eoxSI9KVko_ZfmK3J7d7TEe2hyWc-7irmQKqOJLIrCfVWMP2rz6bXZu8Em0KLCHT6iUqerQYNcW82VMRlXVfNhoJXRGCZn9xQmQWh3qIXam0cr7nqpW2G9uwVNvI8cBMB)
+**Step 1.6: You should get something like this.** ![img](https://lh6.googleusercontent.com/k-xfG94eoxSI9KVko_ZfmK3J7d7TEe2hyWc-7irmQKqOJLIrCfVWMP2rz6bXZu8Em0KLCHT6iUqerQYNcW82VMRlXVfNhoJXRGCZn9xQmQWh3qIXam0cr7nqpW2G9uwVNvI8cBMB)
 
  
 
@@ -142,7 +142,7 @@ In this step, we added the point layer (trailheads) to the map.
 
  
 
-### Exercise II: Styling the Feature Layers 
+### Exercise 2: Styling the Feature Layers 
 
 | **Synopsis**                                                 |               |
 | ------------------------------------------------------------ | ------------- |
@@ -151,11 +151,11 @@ In this step, we added the point layer (trailheads) to the map.
 | Add Line layer (Trails) and change the color based on attribute<br />  “USE_BIKE”. USE_BIKE has values Yes or No. | Step 7        |
 | Add Polygon layer (parks and open space) and change the color based on<br> attribute “GIS_ACRES”.(Light pink: 0 to 1629 acres,Light green 1629 to 3754<br> acres, and Green 3754 to 11438 acres) | Step 9        |
 
-**Step 1. Create a blank HTML file**
+**Step 2.1 Create a blank HTML file**
 
 Open [codepen.io](https://codepen.io/) 
 
-**Step 2. Add the following Basic Template to the HTML section in codepen.io.**
+**Step 2.2 Add the following Basic Template to the HTML section in codepen.io.**
 
 ```html
 <html>
@@ -204,13 +204,13 @@ Open [codepen.io](https://codepen.io/)
 
 
 
-**Step 3. You should see a Map now.**
+**Step 2.3 You should see a Map now.**
 
  ![img](https://lh5.googleusercontent.com/nHSJwW-YNqi5At0F5hSdSImxkAls4NyOL50cJ5mo8xXEj3Xqxx0oee5Xb0xc0KNUpHt7lv4kD_XX_Emww1eshO4wIbh7zJa4JVcp6BppapM-x-1o6prYXdX75GcipdGhqJubaSta)
 
 
 
-**Step 4. Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**    
+**Step 2.4 Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**    
 
 ```javascript
 require([
@@ -246,7 +246,7 @@ var trailheads = new FeatureLayer({
 In this step, we created a reference to the point layer (trailheads) and created a renderer for the layer. Renderers are used to style your layers.
 
 
-**Step 5. Add the following single line of code immediately after the 3 lines of code (lines 41-43, more or less) shown below.**   
+**Step 2.5 Add the following single line of code immediately after the 3 lines of code (lines 41-43, more or less) shown below.**   
 
   ```javascript
 map.add(trailheads);
@@ -260,7 +260,7 @@ var map = new Map({
 In this step, we added the point layer (trailheads) to the map.
 
 
-**Step 6. You should be seeing something like this.**
+**Step 2.6 You should be seeing something like this.**
 
  ![img](https://lh5.googleusercontent.com/yOgwcOF5lAEDRh0lscOYZh4iWyq3boQ6AXy5GZaoj6gZaKhT9a8zwlQn-X4mECZm8euKkVZKAZvETshJdJtrAfdiuMYeRCKKKyCHRZ-p7WMfxZBxzWj0a566k8a_l_BppCFexEFr)
 
@@ -268,7 +268,7 @@ In this step, we added the point layer (trailheads) to the map.
 
   
 
-**Step 7.Paste the code snippet down below before the following line of code (line 41, more or less)**  
+**Step 2.7 Paste the code snippet down below before the following line of code (line 41, more or less)**  
 
  ```javascript
 var map = new Map({
@@ -312,7 +312,7 @@ var trails = new FeatureLayer({
 In this step, we created a reference to the line layer (trails) and created a renderer for the same. 
 
 
- **Step 8. Add the following single line of code immediately after the 2 lines of code shown below (lines 74-75, more or less).** 
+ **Step 2.8 Add the following single line of code immediately after the 2 lines of code shown below (lines 74-75, more or less).** 
 
 ```javascript
 map.add(trails,0);
@@ -325,7 +325,7 @@ map.add(trails,0);
 
 
 
-**Step 8. You should be seeing something like this.**
+**Step 2.9 You should be seeing something like this.**
 
   ![img](https://lh3.googleusercontent.com/3H4HDz8BcRfiPR-ZENxjLDoKjNSyVR7jbq_l2toSWD16FsCoLlQ8yXWZEm_3UrU_XI6g0S37t0yKmKFqC0YyKOhVQAzAZApPWQZGutj44u-9crK1THEGBCXp4eV7UV9A95pdpmnR)
 
@@ -333,7 +333,7 @@ map.add(trails,0);
 
  
 
-**Step 9. Paste the code snippet down below before the following line of code (line 73, more or less)**
+**Step 2.10 Paste the code snippet down below before the following line of code (line 73, more or less)**
 
  ```javascript
 var map = new Map({
@@ -402,7 +402,7 @@ var map = new Map({
 In this step, we created a reference to the polygon layer (parks and open spaces) and created a renderer for the same.
 
 
-**Step 10. Add the following single line of code immediately after the 2 lines of code (lines 132-133, more or less) shown below.** 
+**Step 2.11 Add the following single line of code immediately after the 2 lines of code (lines 132-133, more or less) shown below.** 
 
 ```javascript
 map.add(openspaces,0);
@@ -415,7 +415,7 @@ map.add(openspaces,0);
 In this step, we added the polygon layer (parks and open spaces) to the map.
  
 
-**Step 11. Your final output should be like this.**
+**Step 2.12 Your final output should be like this.**
 
  ![img](https://lh6.googleusercontent.com/lUVeEUiWH0bZyI4b9FeKMWeH-QYIWm-0K2Bi1P8VkzPceh3DRKaYzEZ2OJzWV8p7fF7_dv0TcSoTc8MEzNipGDtVFTDvzaVCV4Fu9EqYrqOH_lAcU63wZzKbqSZeqHuUFrYHdvxS)
 
