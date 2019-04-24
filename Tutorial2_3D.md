@@ -6,7 +6,7 @@
 
   
 
-**Step 1: Paste the following template code into HTML section of [codepen.io](https://codepen.io/).**
+**Step 1.1 Paste the following template code into HTML section of [codepen.io](https://codepen.io/).**
 
  ```html
 <!DOCTYPE html>
@@ -72,13 +72,13 @@
 
 
 
-**Step 2: You should get something like this.**
+**Step 1.2 You should get something like this.**
 
   ![img](https://lh4.googleusercontent.com/w9Ox1M4-T714T5KE3tI-b4Wb9HTrh6sPP8agL_dWbMe6R1MbVwM_7_3hjAKjZrOBOM1nME3A5dTZnmDJjgZ9V1LAZkxtamAC3qKJl4RmCh5zI1PZbeYKueBGAx-SW8nKSiBieSSg)
 
 
 
-**Step 3: Paste the code snippet down below before the following single line of code (line 33)**
+**Step 1.3 In this step, we will create a reference to a polygon layer (population poverty in US) and create a renderer for the same. Paste the code snippet down below before the following single line of code (line 33)**
 
  ```javascript
 var map = new Map({
@@ -142,10 +142,11 @@ var renderer = {
          outFields: ["*"]
        });
 ```
-In this step, we created a reference to a polygon layer (population poverty in US) and created a renderer for the same.
 
 
-**Step 4: Replace the following two lines of code (lines 89-90, more or less) by the three lines of code down below**
+
+**Step 1.4 In this step, we add the polygon layer to the map. 
+Replace the following two lines of code (lines 89-90, more or less) by the three lines of code down below**
 ```javascript
 var map = new Map({
           basemap: "gray",
@@ -155,15 +156,15 @@ var map = new Map({
           basemap: "gray",
           layers: [povLayer]
 ```
-In this step, we add the polygon layer to the map.
 
 
 
-**Step 5: You should see something like this.**  ![img](https://lh3.googleusercontent.com/ijti0zxFyVxn9APrNtMCyTdZZQKoPu-IVV5MyVgiVbQAfMoSFMV-_QEmDsJ6_M8WlUmMQXQAvNJ0cYLJzwDJVPYCFOa1Gj4rA8Y1fSdii-a3-BGsGFamsjtCzLN5F7_4PFAIbGEI)
+
+**Step 1.5 You should see something like this.**  ![img](https://lh3.googleusercontent.com/ijti0zxFyVxn9APrNtMCyTdZZQKoPu-IVV5MyVgiVbQAfMoSFMV-_QEmDsJ6_M8WlUmMQXQAvNJ0cYLJzwDJVPYCFOa1Gj4rA8Y1fSdii-a3-BGsGFamsjtCzLN5F7_4PFAIbGEI)
 
  
 
- **Step 6:** *Include Pop-up*
+ **Step 1.6  In this step, we enable pop-ups to the extruded layer.** 
 
 **Replace the following single line of code (line 87) by the code snippet below**
 
@@ -196,17 +197,17 @@ outFields: ["*"],
            ]
          }
 ```
-In this step, we enabled pop-ups to the extruded layer.
+
 
        
 
-**Step 7: You should see something like this.** ![img](https://lh6.googleusercontent.com/RYuJD6VXktwfBm7Ln4lDD_NeHyF6_22LoWDQG5CgmCEZNPjeDu7wsqel_7r_l0XoR8yLZK6tEzC8Y1EBIH0w_nQCxmOhU4-RIlTiOx111Ntq33YaJYf7U0qbU5UN69i8Gu3du_WS)
+**Step 1.7 You should see something like this.** ![img](https://lh6.googleusercontent.com/RYuJD6VXktwfBm7Ln4lDD_NeHyF6_22LoWDQG5CgmCEZNPjeDu7wsqel_7r_l0XoR8yLZK6tEzC8Y1EBIH0w_nQCxmOhU4-RIlTiOx111Ntq33YaJYf7U0qbU5UN69i8Gu3du_WS)
 
  
 
  
 
-**Step 8: Include Legend**
+**Step 1.8 In this step, we include a Legend**
 
 **Replace the following three lines of code (lines 129 - 131, more or less) with the code snippet below.** 
 
@@ -228,12 +229,12 @@ In this step, we enabled pop-ups to the extruded layer.
    </script>
  </head>
  ```
-In this step, we included a Legend.
+
 
 
  
 
- **Step 9: Your final output should look like this.** ![img](https://lh5.googleusercontent.com/v7Ylor1gm-P8E_TOcWz8_p2UwkcPAd9xdLtm21Pmta2D6ygz3Z5daPJ2iJ-Kx1IciJit0I99ywcLgx1VbjJKBu6AW65DqyWBBdxAKjRchDD7_6mYulsOxm88pzmYT4YP55q9_s4C)
+ **Step 1.9 Your final output should look like this.** ![img](https://lh5.googleusercontent.com/v7Ylor1gm-P8E_TOcWz8_p2UwkcPAd9xdLtm21Pmta2D6ygz3Z5daPJ2iJ-Kx1IciJit0I99ywcLgx1VbjJKBu6AW65DqyWBBdxAKjRchDD7_6mYulsOxm88pzmYT4YP55q9_s4C)
 
 
 
