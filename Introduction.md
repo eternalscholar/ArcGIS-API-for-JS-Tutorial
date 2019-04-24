@@ -12,9 +12,6 @@ The ArcGIS API for JavaScript is a powerful library that you can use to build ap
 
 This tutorial is divided into two parts. Tutorial-I is an introductory tutorial for 2D where three layers, a point layer, a line layer and a polygon layer, will be displayed over a basemap and they will be styled to make them look more attractive. In Tutorial-II, we will deal with 3D where we will extrude data in the third dimension overlaid on a basemap.
 
-This tutorial was developed as a requirement for the course "GIS 715 - Geovisualization" at North Carolina State University.
-
-
 
 ## Sources:
 
