@@ -88,7 +88,8 @@ Open [codepen.io](https://codepen.io/)
 
  
 
-**Step 4. Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**
+**Step 4. ***Create a reference to the point layer (trailheads)***
+**Replace the following 4 lines of code (lines 19-22) with the lines of code below it.**
 
 ```javascript
 require([
@@ -113,7 +114,8 @@ require([
 
 
 
-**Step 5. Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
+**Step 5. ***Add the point layer(trailheads) to the map***
+**Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
 
 ```javascript
 map.add(featureLayer);
@@ -333,7 +335,7 @@ map.add(trails,0);
 
  
 
-**Step 9.** *Style the Parks and Open Spaces layer by numeric values*
+**Step 9. Style the Parks and Open Spaces layer by numeric values**
 
 Paste the code snippet down below before the following line of code (line 73, more or less)
 
