@@ -142,6 +142,8 @@ var renderer = {
          outFields: ["*"]
        });
 ```
+In this step, we created a reference to a polygon layer (population poverty in US) and created a renderer for the same.
+
 
 **Step 4: Replace the following two lines of code (lines 89-90, more or less) by the three lines of code down below**
 ```javascript
@@ -153,6 +155,10 @@ var map = new Map({
           basemap: "gray",
           layers: [povLayer]
 ```
+In this step, we add the polygon layer to the map.
+
+
+
 **Step 5: You should see something like this.**  ![img](https://lh3.googleusercontent.com/ijti0zxFyVxn9APrNtMCyTdZZQKoPu-IVV5MyVgiVbQAfMoSFMV-_QEmDsJ6_M8WlUmMQXQAvNJ0cYLJzwDJVPYCFOa1Gj4rA8Y1fSdii-a3-BGsGFamsjtCzLN5F7_4PFAIbGEI)
 
  
@@ -190,10 +196,9 @@ outFields: ["*"],
            ]
          }
 ```
+In this step, we enabled pop-ups to the extruded layer.
 
-
-
-​        
+       
 
 **Step 7: You should see something like this.** ![img](https://lh6.googleusercontent.com/RYuJD6VXktwfBm7Ln4lDD_NeHyF6_22LoWDQG5CgmCEZNPjeDu7wsqel_7r_l0XoR8yLZK6tEzC8Y1EBIH0w_nQCxmOhU4-RIlTiOx111Ntq33YaJYf7U0qbU5UN69i8Gu3du_WS)
 
@@ -223,7 +228,7 @@ outFields: ["*"],
    </script>
  </head>
  ```
-
+In this step, we included a Legend.
 
 
  
