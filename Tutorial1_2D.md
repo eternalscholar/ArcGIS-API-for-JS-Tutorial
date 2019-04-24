@@ -110,7 +110,9 @@ require([
   });
 
 ```
-In this step, we added a reference to the point layer (trailheads).
+In this step, we added a reference to the point layer (trailheads).  
+  
+  
 
 
 **Step 5. Add the following single line of code immediately after the 3 lines of code shown below (lines 28-30. This may vary if you have extra blank lines).**   
